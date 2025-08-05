@@ -160,3 +160,94 @@ body {
   color:#1b7fa0;
   font-weight: 1000;
 }
+
+/* 🧠 MEDIA QUERIES FOR ALL RESOLUTIONS */
+
+/* Extra Small Devices (≤ 320px) */
+@media (max-width: 320px) {
+  .parent {
+    grid-template-areas:
+      "banner"
+      "about"
+      "socials";
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 1.1rem;
+  }
+
+  .image2 {
+    width: 70px;
+  }
+}
+
+/* Small Phones (321px–480px) */
+@media (min-width: 321px) and (max-width: 480px) {
+  .parent {
+    grid-template-areas:
+      "banner"
+      "about"
+      "socials";
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* Large Phones (481px–600px) */
+@media (min-width: 481px) and (max-width: 600px) {
+  .parent {
+    grid-template-areas:
+      "banner"
+      "about"
+      "socials";
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+}
+
+/* Tablets Portrait (601px–768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+  .parent {
+    grid-template-areas:
+      "banner"
+      "about"
+      "socials";
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tablets Landscape (769px–1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .parent {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Small Laptops (1025px–1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* optional tweaks for larger screens */
+}
+
+/* Desktops (1281px–1440px) */
+@media (min-width: 1281px) and (max-width: 1440px) {
+  /* optional tweaks */
+}
+
+/* Large Desktops (1441px–1600px) */
+@media (min-width: 1441px) and (max-width: 1600px) {
+  /* optional tweaks */
+}
+
+/* Ultra HD Screens (1601px+) */
+@media (min-width: 1601px) {
+  /* optional tweaks */
+}
+
+
